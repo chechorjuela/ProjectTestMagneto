@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2BA84F2-42A0-49C7-8C64-8DCC75789FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenLabs.Presentation.Api", "EldenLabs.Presentation.Api\EldenLabs.Presentation.Api.csproj", "{0BCFE607-8EB5-413B-A450-8EFADC534699}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B0C168B9-BC6B-4259-8FD4-0A89DDD24677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D760290E-069F-4332-B5F0-D54CC769C065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D96EAF56-4EC4-4FCE-B9D3-2353A7024F8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{50509EB0-3409-4C2B-AA91-6FC4AFF24273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenLabs.Application.Core", "EldenLabs.Application.Core\EldenLabs.Application.Core.csproj", "{6D433F29-49FB-4CB6-87E7-4E781071D913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenLabs.Infrastructure", "EldenLabs.Infrastructure\EldenLabs.Infrastructure.csproj", "{5344B97B-004D-402D-87EE-86DB0E41E464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenLabs.Domain", "EldenLabs.Domain\EldenLabs.Domain.csproj", "{3E6399AF-ECB8-41CD-AF0B-C93C1F19691C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CDD28B8E-895C-4907-B78B-5F80542713FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenLabs.Test.ApplicationCore", "EldenLabs.Test.ApplicationCore\EldenLabs.Test.ApplicationCore.csproj", "{98379842-8127-404A-9B4F-6135B7C79932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenLabs.Test.Infrastructure", "EldenLabs.Test.Infrastructure\EldenLabs.Test.Infrastructure.csproj", "{8587271E-56E0-4A78-8DAD-6FCD76C5DB6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCFE607-8EB5-413B-A450-8EFADC534699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCFE607-8EB5-413B-A450-8EFADC534699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCFE607-8EB5-413B-A450-8EFADC534699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCFE607-8EB5-413B-A450-8EFADC534699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D433F29-49FB-4CB6-87E7-4E781071D913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D433F29-49FB-4CB6-87E7-4E781071D913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D433F29-49FB-4CB6-87E7-4E781071D913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D433F29-49FB-4CB6-87E7-4E781071D913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5344B97B-004D-402D-87EE-86DB0E41E464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5344B97B-004D-402D-87EE-86DB0E41E464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5344B97B-004D-402D-87EE-86DB0E41E464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5344B97B-004D-402D-87EE-86DB0E41E464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6399AF-ECB8-41CD-AF0B-C93C1F19691C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6399AF-ECB8-41CD-AF0B-C93C1F19691C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6399AF-ECB8-41CD-AF0B-C93C1F19691C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6399AF-ECB8-41CD-AF0B-C93C1F19691C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98379842-8127-404A-9B4F-6135B7C79932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98379842-8127-404A-9B4F-6135B7C79932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98379842-8127-404A-9B4F-6135B7C79932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98379842-8127-404A-9B4F-6135B7C79932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8587271E-56E0-4A78-8DAD-6FCD76C5DB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8587271E-56E0-4A78-8DAD-6FCD76C5DB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8587271E-56E0-4A78-8DAD-6FCD76C5DB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8587271E-56E0-4A78-8DAD-6FCD76C5DB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BCFE607-8EB5-413B-A450-8EFADC534699} = {B0C168B9-BC6B-4259-8FD4-0A89DDD24677}
+		{B0C168B9-BC6B-4259-8FD4-0A89DDD24677} = {F2BA84F2-42A0-49C7-8C64-8DCC75789FD0}
+		{D760290E-069F-4332-B5F0-D54CC769C065} = {F2BA84F2-42A0-49C7-8C64-8DCC75789FD0}
+		{D96EAF56-4EC4-4FCE-B9D3-2353A7024F8F} = {F2BA84F2-42A0-49C7-8C64-8DCC75789FD0}
+		{50509EB0-3409-4C2B-AA91-6FC4AFF24273} = {F2BA84F2-42A0-49C7-8C64-8DCC75789FD0}
+		{6D433F29-49FB-4CB6-87E7-4E781071D913} = {D96EAF56-4EC4-4FCE-B9D3-2353A7024F8F}
+		{5344B97B-004D-402D-87EE-86DB0E41E464} = {50509EB0-3409-4C2B-AA91-6FC4AFF24273}
+		{3E6399AF-ECB8-41CD-AF0B-C93C1F19691C} = {D760290E-069F-4332-B5F0-D54CC769C065}
+		{CDD28B8E-895C-4907-B78B-5F80542713FE} = {F2BA84F2-42A0-49C7-8C64-8DCC75789FD0}
+		{98379842-8127-404A-9B4F-6135B7C79932} = {CDD28B8E-895C-4907-B78B-5F80542713FE}
+		{8587271E-56E0-4A78-8DAD-6FCD76C5DB6D} = {CDD28B8E-895C-4907-B78B-5F80542713FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFE21AD1-F8FE-4744-8962-10FE94B2FE6F}
+	EndGlobalSection
+EndGlobal
